@@ -3,12 +3,13 @@
   "private": true,
   "description": "lerna monorepo",
   "scripts": {
+    "bootstrap": "lerna bootstrap",
     "docs:dev": "lerna run dev --scope=lerna-test-docs --stream",
     "docs:build": "lerna run build --scope=lerna-test-docs --stream",
     "docs:serve": "lerna run serve --scope=lerna-test-docs --stream",
-    "release": "lerna version --conventional-commits"
+    "release": "lerna version --conventional-commits --yes"
   },
-  "author": "",
+  "author": "Stepan Sotnikov <sotnikov1207@gmail.com>",
   "license": "ISC",
   "devDependencies": {
     "lerna": "^3.22.1"
