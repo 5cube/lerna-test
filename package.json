@@ -3,12 +3,15 @@
   "private": true,
   "description": "lerna monorepo",
   "scripts": {
-    "bootstrap": "lerna bootstrap --hoist",
+    "bootstrap": "npm install && lerna bootstrap --hoist",
     "docs:dev": "lerna run dev --scope=lerna-test-docs --stream",
     "docs:build": "lerna run build --scope=lerna-test-docs --stream",
     "docs:serve": "lerna run serve --scope=lerna-test-docs --stream",
     "ui:dev": "lerna run dev --scope=ui --stream",
     "ui:build": "lerna run build --scope=ui --stream",
+    "app:serve": "lerna run serve --scope=app --stream",
+    "app:build": "lerna run build --scope=app --stream",
+    "app:lint": "lerna run lint --scope=app --stream",
     "release": "lerna version --conventional-commits --yes",
     "clean": "lerna clean"
   },
