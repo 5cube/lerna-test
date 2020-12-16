@@ -5,7 +5,8 @@
   "scripts": {
     "docs:dev": "lerna run dev --scope=lerna-test-docs --stream",
     "docs:build": "lerna run build --scope=lerna-test-docs --stream",
-    "docs:serve": "lerna run serve --scope=lerna-test-docs --stream"
+    "docs:serve": "lerna run serve --scope=lerna-test-docs --stream",
+    "release": "lerna version --conventional-commits"
   },
   "author": "",
   "license": "ISC",
