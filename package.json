@@ -1,8 +1,11 @@
 {
   "name": "lerna-test",
+  "private": true,
   "description": "lerna monorepo",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "docs:dev": "lerna run dev --scope=lerna-test-docs --stream",
+    "docs:build": "lerna run build --scope=lerna-test-docs --stream",
+    "docs:serve": "lerna run serve --scope=lerna-test-docs --stream"
   },
   "author": "",
   "license": "ISC",
