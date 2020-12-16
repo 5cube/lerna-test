@@ -3,15 +3,22 @@
   "private": true,
   "description": "lerna monorepo",
   "scripts": {
-    "bootstrap": "lerna bootstrap",
+    "bootstrap": "lerna bootstrap --hoist",
     "docs:dev": "lerna run dev --scope=lerna-test-docs --stream",
     "docs:build": "lerna run build --scope=lerna-test-docs --stream",
     "docs:serve": "lerna run serve --scope=lerna-test-docs --stream",
-    "release": "lerna version --conventional-commits --yes"
+    "ui:dev": "lerna run dev --scope=ui --stream",
+    "ui:build": "lerna run build --scope=ui --stream",
+    "release": "lerna version --conventional-commits --yes",
+    "clean": "lerna clean"
   },
   "author": "Stepan Sotnikov <sotnikov1207@gmail.com>",
   "license": "ISC",
   "devDependencies": {
-    "lerna": "^3.22.1"
+    "@tailwindcss/postcss7-compat": "^2.0.2",
+    "autoprefixer": "^9.8.6",
+    "lerna": "^3.22.1",
+    "postcss": "^7.0.35",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.2"
   }
 }
