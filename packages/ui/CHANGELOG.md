@@ -10,25 +10,3 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 * added app package ([2bdbdce](https://github.com/5cube/lerna-test/commit/2bdbdce227b6d1a3e4f33559c206668f928a1147))
 * added ui package ([58ab167](https://github.com/5cube/lerna-test/commit/58ab167e6b739845708c8287c766e92aa43802b0))
-
-
-
-
-
-## [0.1.1](https://github.com/5cube/lerna-test/compare/v0.1.0...v0.1.1) (2020-12-16)
-
-
-### Bug Fixes
-
-* **docs:** added config.js with title and description ([92fa7e5](https://github.com/5cube/lerna-test/commit/92fa7e5fba3a1b02acd5eeab1bdb3f1718c396b3))
-
-
-
-
-
-# 0.1.0 (2020-12-16)
-
-
-### Features
-
-* added docs package ([20b9412](https://github.com/5cube/lerna-test/commit/20b94129636e259bc06e2fbed0a95cb94154a381))
