@@ -1,0 +1,12 @@
+{
+  "name": "lerna-test",
+  "description": "lerna monorepo",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "lerna": "^3.22.1"
+  }
+}
