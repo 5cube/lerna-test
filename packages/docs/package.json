@@ -1,7 +1,7 @@
 {
   "name": "lerna-test-docs",
   "private": true,
-  "version": "0.2.1",
+  "version": "0.2.3-alpha.0",
   "description": "vitepress test app",
   "scripts": {
     "dev": "vitepress dev src",
