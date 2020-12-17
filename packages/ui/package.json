@@ -1,7 +1,7 @@
 {
   "name": "ui",
   "private": true,
-  "version": "0.2.0",
+  "version": "0.2.1",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "license": "ISC",
@@ -21,7 +21,7 @@
   },
   "devDependencies": {
     "@vue/compiler-sfc": "^3.0.4",
-    "vite": "^1.0.0-rc.13",
-    "typescript": "~3.9.3"
+    "typescript": "~3.9.3",
+    "vite": "^1.0.0-rc.13"
   }
 }
