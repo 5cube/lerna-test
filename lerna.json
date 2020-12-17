@@ -6,6 +6,14 @@
     "packages/*"
   ],
   "command": {
+    "publish": {
+      "allowBranch": [
+        "master",
+        "dev",
+        "next"
+      ],
+      "message": "chore(release): publish %s"
+    },
     "version": {
       "message": "chore(release): publish %s"
     }
