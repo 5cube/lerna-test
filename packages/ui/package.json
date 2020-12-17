@@ -2,15 +2,26 @@
   "name": "ui",
   "private": true,
   "version": "0.2.0",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "license": "ISC",
+  "files": [
+    "lib"
+  ],
+  "engines": {
+    "node": ">=12"
+  },
   "scripts": {
-    "dev": "vite",
-    "build": "vite build"
+    "playground": "vite serve playground",
+    "playground:build": "vite build playground",
+    "build": "rm -rf ./lib/* && tsc"
   },
   "dependencies": {
     "vue": "^3.0.4"
   },
   "devDependencies": {
     "@vue/compiler-sfc": "^3.0.4",
-    "vite": "^1.0.0-rc.13"
+    "vite": "^1.0.0-rc.13",
+    "typescript": "~3.9.3"
   }
 }

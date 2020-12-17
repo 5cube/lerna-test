@@ -7,9 +7,9 @@
     "docs:dev": "lerna run dev --scope=lerna-test-docs --stream",
     "docs:build": "lerna run build --scope=lerna-test-docs --stream",
     "docs:serve": "lerna run serve --scope=lerna-test-docs --stream",
-    "ui:dev": "lerna run dev --scope=ui --stream",
+    "ui:dev": "lerna run playground --scope=ui --stream",
     "ui:build": "lerna run build --scope=ui --stream",
-    "app:serve": "lerna run serve --scope=app --stream",
+    "app:dev": "lerna run serve --scope=app --stream",
     "app:build": "lerna run build --scope=app --stream",
     "app:lint": "lerna run lint --scope=app --stream",
     "release": "lerna version --conventional-commits --yes",
@@ -22,6 +22,7 @@
     "autoprefixer": "^9.8.6",
     "lerna": "^3.22.1",
     "postcss": "^7.0.35",
-    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.2"
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.2",
+    "typescript": "~3.9.3"
   }
 }
