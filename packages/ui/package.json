@@ -12,7 +12,7 @@
     "node": ">=12"
   },
   "scripts": {
-    "playground": "vite serve playground",
+    "playground": "vite serve playground --port=8080",
     "playground:build": "vite build playground",
     "build": "rm -rf ./lib/* && tsc"
   },
