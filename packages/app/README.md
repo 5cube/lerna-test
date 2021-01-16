@@ -1,4 +1,4 @@
-# app test docs chore style
+# app test docs chore style perf
 
 ## Project setup
 ```
