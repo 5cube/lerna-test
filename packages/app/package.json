@@ -1,6 +1,6 @@
 {
   "name": "app",
-  "version": "0.2.3-alpha.1",
+  "version": "0.2.3",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "core-js": "^3.6.5",
-    "ui": "^0.2.3-alpha.1",
+    "ui": "^0.2.3",
     "vue": "^3.0.0",
     "vue-router": "^4.0.0-0"
   },
