@@ -1,4 +1,4 @@
-# app test
+# app test docs
 
 ## Project setup
 ```
