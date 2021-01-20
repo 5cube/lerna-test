@@ -17,5 +17,9 @@
     "version": {
       "message": "chore(release): publish %s"
     }
-  }
+  },
+  "ignoreChanges": [
+    "**/changelog.md",
+    "**/CHANGELOG.md"
+  ]
 }
